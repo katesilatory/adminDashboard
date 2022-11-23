@@ -1,6 +1,5 @@
 import styles from "./Dashboard.module.css";
 import SearchIcon from '@mui/icons-material/Search';
-// import Combobox from "react-widgets/Combobox";
 
 
 export const Dashboard = () => {
