@@ -1,5 +1,6 @@
 import styles from "./Dashboard.module.css";
 import SearchIcon from '@mui/icons-material/Search';
+// import Combobox from "react-widgets/Combobox";
 
 
 export const Dashboard = () => {
@@ -8,6 +9,12 @@ export const Dashboard = () => {
             <div className={styles.search}>
                 <input className={styles.input} type="text"></input>
                 <button className={styles.icon}><SearchIcon sx={{ fontSize: 20}} /></button>
+                <select name="Course">
+                    <option value="1">Course</option>
+                    <option value="2">Course</option>
+                    <option value="3">Course</option>
+                    <option value="4">Course</option>
+                </select>
             </div>
             <div>
                 <button className={styles.secondary}>Transcribe</button>

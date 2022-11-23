@@ -1,14 +1,14 @@
 import './App.css';
 import { Dashboard } from './components/Dashboard';
 import { Header } from './components/Header';
-// import { Table } from './components/Table';
+import BasicTable from './components/BasicTable';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Dashboard />
-      {/* <Table /> */}
+      <BasicTable />
     </div>
   )
 }
